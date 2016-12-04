@@ -87,6 +87,7 @@
 		04BFE5391DF43DF100CC4B72 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BFE50A1DF43DF100CC4B72 /* UIImageView+HighlightedWebCache.m */; };
 		04BFE53A1DF43DF100CC4B72 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BFE50C1DF43DF100CC4B72 /* UIImageView+WebCache.m */; };
 		04BFE53B1DF43DF100CC4B72 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BFE50E1DF43DF100CC4B72 /* UIView+WebCacheOperation.m */; };
+		04BFE53E1DF442E700CC4B72 /* RWPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BFE53D1DF442E700CC4B72 /* RWPlayerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -226,6 +227,8 @@
 		04BFE50C1DF43DF100CC4B72 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		04BFE50D1DF43DF100CC4B72 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		04BFE50E1DF43DF100CC4B72 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		04BFE53C1DF442E700CC4B72 /* RWPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWPlayerViewController.h; sourceTree = "<group>"; };
+		04BFE53D1DF442E700CC4B72 /* RWPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWPlayerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -327,6 +330,8 @@
 		04BFE4621DF4397300CC4B72 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				04BFE53C1DF442E700CC4B72 /* RWPlayerViewController.h */,
+				04BFE53D1DF442E700CC4B72 /* RWPlayerViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -706,6 +711,7 @@
 				04BFE4A51DF43C2500CC4B72 /* RWConst.m in Sources */,
 				04BFE51C1DF43DF100CC4B72 /* MJRefreshBackFooter.m in Sources */,
 				04BFE5171DF43DF100CC4B72 /* View+MASAdditions.m in Sources */,
+				04BFE53E1DF442E700CC4B72 /* RWPlayerViewController.m in Sources */,
 				04BFE5311DF43DF100CC4B72 /* SDWebImageDecoder.m in Sources */,
 				04BFE5351DF43DF100CC4B72 /* SDWebImagePrefetcher.m in Sources */,
 				04BFE5241DF43DF100CC4B72 /* MJRefreshBackNormalFooter.m in Sources */,
