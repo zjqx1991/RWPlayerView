@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "RWConst.h"
 
 @interface ViewController ()
 
@@ -16,14 +17,25 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    //创建播放按钮
+    UIButton *playerButton = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    
+    [playerButton setTitle:@"播放按钮" forState:UIControlStateNormal];
+    [playerButton setBackgroundColor:[UIColor orangeColor]];
+    [playerButton addTarget:self action:@selector(playerButtonClick:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:playerButton];
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark - 监听播放按钮
+- (void)playerButtonClick:(UIButton *) playerBtn {
+    RWPlayerViewController *playerVC = [[RWPlayerViewController alloc] init];
+    playerVC.view.backgroundColor = [UIColor whiteColor];
+    //视频链接
+    playerVC.URLString = @"http://v1.mukewang.com/a45016f4-08d6-4277-abe6-bcfd5244c201/L.mp4";
+    playerVC.titleName = @"播放视频__title";
+    [self presentViewController:playerVC animated:YES completion:^{
+        
+    }];
 }
-
 
 @end

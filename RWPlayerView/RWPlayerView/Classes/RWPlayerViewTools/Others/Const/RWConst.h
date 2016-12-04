@@ -19,3 +19,5 @@
 
 #pragma mark 4、MBProgressHUD提示
 #import "MBProgressHUD+Show.h"
+#pragma mark 5、播放器控制器
+#import "RWPlayerViewController.h"
