@@ -899,6 +899,7 @@
 				04BFE45C1DF4388E00CC4B72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
